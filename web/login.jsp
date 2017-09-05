@@ -14,11 +14,11 @@
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
 
-        <title>Login - Peliculas</title>
+        <title>Login - Conciertos</title>
     </head>
     <%
         if (session.getAttribute("objUserCon") != null) {
-            
+
             response.sendRedirect("home.jsp");
         } else {
             if (session.getAttribute("msjErrorLogin") != null) {
@@ -38,9 +38,9 @@
     <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
     <body class="">
-        <img src="http://3.bp.blogspot.com/-_P0GOCwooXo/V_3xRg_leuI/AAAAAAAAAFo/UqPKOHAbb6gHgheGEo6_273XwRQBnVmnACK4B/s752/logo-light.png" height="50px;">
-        <div class="containerLogin">
-            <br>
+        <img src="https://image.flaticon.com/icons/png/512/195/195123.png" height="150px;">
+        <div class="containerLogin"  style="margin-top:-100px;">
+
 
             <div class=" card-panel" style="background: rgba(238, 238, 238, 0.8);">
                 <div class="row">
@@ -104,7 +104,7 @@
 </script>
 <style>
     body{
-        background-image: url("https://k32.kn3.net/taringa/0/0/4/A/F/2/TZSFTW/1A1.jpg");
+        background-image: url("https://www.tec.com.pe/wp-content/uploads/2013/10/Muse-Concierto-4K-Bateria.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         height: 100%;

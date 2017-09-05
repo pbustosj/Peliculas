@@ -5,6 +5,14 @@ import java.util.LinkedList;
 
 public class UsuarioController {
 
+    public LinkedList<Usuario> getListaUsuario() {
+        return listaUsuario;
+    }
+
+    public void setListaUsuario(LinkedList<Usuario> listaUsuario) {
+        this.listaUsuario = listaUsuario;
+    }
+
     private LinkedList<Usuario> listaUsuario;
 
     public UsuarioController() {
