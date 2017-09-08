@@ -1,17 +1,26 @@
-<%-- 
-    Document   : ingresarUsuario
-    Created on : 01-09-2017, 14:59:58
-    Author     : Desarrollador
---%>
-
+<%@page import="duoc.cl.dej4501.entidades.Usuario"%>
+<%@page import="java.util.LinkedList"%>
+<%@page import="duoc.cl.dej4501.negocio.UsuarioController"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
+<%if (session.getAttribute("objUserCon") != null) {
+        if (session.getAttribute("listaUsuarios") != null) {
+            LinkedList<Usuario> lU = (LinkedList<Usuario>)session.getAttribute("objUserCon");
+            UsuarioController uC = new UsuarioController(lU);
+%>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <jsp:include page="header.jsp" flush="true" />
+        <title>Listado Usuarios</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1 class="green-text">Listado Usuarios:</h1>
     </body>
 </html>
+<%} else {
+
+        }
+    } else {
+        response.sendRedirect("index.jsp");
+
+    }
+%>

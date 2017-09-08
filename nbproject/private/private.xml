@@ -3,13 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Desarrollador/Documents/NetBeansProjects/ProyectoConciertos/src/java/duoc/cl/dej4501/negocio/UsuarioController.java</file>
-            <file>file:/C:/Users/Desarrollador/Documents/NetBeansProjects/ProyectoConciertos/web/Usuario/ingresarUsuario.jsp</file>
-            <file>file:/C:/Users/Desarrollador/Documents/NetBeansProjects/ProyectoConciertos/web/index.jsp</file>
-            <file>file:/C:/Users/Desarrollador/Documents/NetBeansProjects/ProyectoConciertos/web/menu.jsp</file>
-            <file>file:/C:/Users/Desarrollador/Documents/NetBeansProjects/ProyectoConciertos/src/java/duoc/cl/dej4501/presentacion/UsuarioControllerServlet.java</file>
-            <file>file:/C:/Users/Desarrollador/Documents/NetBeansProjects/ProyectoConciertos/web/home.jsp</file>
-            <file>file:/C:/Users/Desarrollador/Documents/NetBeansProjects/ProyectoConciertos/web/Usuario/menu.jsp</file>
+            <file>file:/D:/GIT%20PROYECTOS/JAVAWEB/Peliculas/src/java/duoc/cl/dej4501/presentacion/cerrarSesionServlet.java</file>
+            <file>file:/D:/GIT%20PROYECTOS/JAVAWEB/Peliculas/web/Usuario/menu.jsp</file>
+            <file>file:/D:/GIT%20PROYECTOS/JAVAWEB/Peliculas/web/home.jsp</file>
+            <file>file:/D:/GIT%20PROYECTOS/JAVAWEB/Peliculas/web/Usuario/mostrarUsuario.jsp</file>
+            <file>file:/D:/GIT%20PROYECTOS/JAVAWEB/Peliculas/src/java/duoc/cl/dej4501/negocio/UsuarioController.java</file>
+            <file>file:/D:/GIT%20PROYECTOS/JAVAWEB/Peliculas/web/Usuario/ingresarUsuario.jsp</file>
+            <file>file:/D:/GIT%20PROYECTOS/JAVAWEB/Peliculas/src/java/duoc/cl/dej4501/presentacion/loginServlet.java</file>
         </group>
     </open-files>
 </project-private>

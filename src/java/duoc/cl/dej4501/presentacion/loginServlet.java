@@ -34,7 +34,7 @@ public class loginServlet extends HttpServlet {
 
         UsuarioController objUserController = new UsuarioController((LinkedList<Usuario>) sesion.getAttribute("listaUsuarios"));
         Usuario user = objUserController.login(username, password);
-           System.out.println(user.getNombre());
+           //System.out.println(user.getNombre());
 
         if (user!=null) {
             /*       Usuario objUserCon = objUserController.login(username, password);*/

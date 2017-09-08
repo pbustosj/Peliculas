@@ -33,7 +33,7 @@
 
                 </div>
             </div>
-            <div class="row">
+            <div class="row hide-on-med-and-up">
                 <div class="col l12">
                     <div class="slider">
                         <ul class="slides">

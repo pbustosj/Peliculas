@@ -9,7 +9,7 @@
     <li><a href="Usuario/ingresarUsuario.jsp">Ingresar</a></li>
     <li><a href="#!">Modificar</a></li>
     <li><a href="#!">Eliminar</a></li>
-    <li><a href="#!">Mostrar</a></li>
+    <li><a href="Usuario/mostrarUsuario.jsp">Mostrar</a></li>
 </ul>
 <nav class="navbar-fixed black" style="min-height: 50px;">
     <div class="nav-wrapper">
@@ -20,7 +20,7 @@
                         out.println(objUsu.getNombre());
                     %>
                 </h5></li>
-            <li><a  style=""><i class="material-icons left">home</i>Home</a></li>
+            <li><a href="home.jsp" style=""><i class="material-icons left">home</i>Home</a></li>
             <li><a style="" class="dropdown-button" href="#!" data-activates="subPel" href="badges.html"><i class="material-icons left">movie</i>Concierto</a></li>
 
 
@@ -28,7 +28,7 @@
         <ul class="right hide-on-med-and-down">
             <li><a class="dropdown-button" href="#!" data-activates="subUsu" href="badges.html"><i class="material-icons left">account_circle</i>Usuario</a></li>
             <li><a  class="dropdown-button" href="#!" data-activates="dropdown1" href="badges.html"><i class="material-icons left">search</i>Búsquedas</a></li>
-            <li><a style="margin-right: 155px;" class="dropdown-button" id="cerrarSesion" href=""><i class="material-icons left">exit_to_app</i>Salir</a></li>
+            <li><a style="margin-right: 130px;" class="dropdown-button" id="cerrarSesion" href=""><i class="material-icons left">exit_to_app</i>Salir</a></li>
         </ul>
     </div>
 </nav>
